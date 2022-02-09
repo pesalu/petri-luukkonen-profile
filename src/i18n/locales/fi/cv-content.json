@@ -10,10 +10,20 @@
     "county": "Uusimaa",
     "email": "petri.luukkonen@protonmail.com",
     "phone": "+358452244780",
-    "socialmedia": {
-      "linkedin": "https://www.linkedin.com/in/petri-luukkonen-fin/",
-      "soundcloud": "https://soundcloud.com/filmmusicenthusiast"
-    }
+    "socialmedia": [
+      {
+        "name": "LinkedIn",
+        "boxIconName": "linkedin-square",
+        "url": "https://www.linkedin.com/in/petri-luukkonen-fin/",
+        "description": "Professional profile"
+      },
+      {
+        "name": "soundcloud",
+        "boxIconName": "soundcloud",
+        "url": "https://soundcloud.com/filmmusicenthusiast",
+        "description": "Film Music Enthusiast (Musiikkiprojekteja)"
+      }
+    ]
   },
   "profileDescription": "Kokemusta datatieteestä sekä tutkimustyöstä 3 vuoden ajalta käyttäen Python-pohjaisia sovelluskehyksiä ja kirjastoja, sekä 4 vuoden kokemus web-sovellusten fullstack-kehittämisestä (teknologioina AngularJS, Java, Spring framework, Hibernate, ja PostgreSQL).",
   "education": [

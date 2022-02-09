@@ -1,5 +1,3 @@
-import { html2pdf } from "html2pdf.js";
-
 let main = () => {
   /*==================== SHOW MENU ====================*/
   const showMenu = (toggleId, navId) => {
