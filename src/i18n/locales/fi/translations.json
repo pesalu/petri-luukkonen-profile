@@ -1,0 +1,21 @@
+{
+  "home": "Koti",
+  "profile": "Profiili",
+  "education": "Koulutus",
+  "certificates": "Sertifikaatit",
+  "courses": "Kurssit",
+  "experience": "Työkokemus",
+  "skills": "Taidot",
+  "interests": "Harrastukset",
+  "languages": "Kielitaito",
+  "programming-languages": "Ohjelmointikielet",
+  "application-framework": "Sovelluskehys",
+  "application-frameworks": "Sovelluskehykset",
+  "software-libraries": "Sovelluskirjastot",
+  "software-library": "Sovelluskirjasto",
+  "libraries": "kirjastot",
+  "Tools": "Työkalut",
+  "references": "Referenssit",
+  "social": "SoMe",
+  "download": "Lataa CV"
+}

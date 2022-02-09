@@ -1,0 +1,244 @@
+{
+  "fullName": "Petri Luukkonen",
+  "firstName": "Petri",
+  "lastName": "Luukkonen",
+  "occupation": "Software Developer",
+  "contactDetails": {
+    "city": "Espoo",
+    "county": "Uusimaa",
+    "email": "petri.luukkonen@protonmail.com",
+    "phone": "+358451112222",
+    "socialmedia": {
+      "linkedin": "https://www.linkedin.com/in/petri-luukkonen-fin/",
+      "soundcloud": "https://soundcloud.com/filmmusicenthusiast"
+    }
+  },
+  "profileDescription": "Experienced full stack software developer of web based applications with   interest toward intelligent data centric solutions. Petri has acquired experience   from data science projects through academic research and industry  knowledge of web app development.",
+  "education": [
+    {
+      "school": "University of Helsinki",
+      "degree": "Master of Science",
+      "period": {
+        "startDate": "1.9.2012",
+        "endDate": "1.3.2016"
+      }
+    },
+    {
+      "school": "University of Helsinki",
+      "degree": "Bachelor of Science",
+      "period": {
+        "startDate": "1.8.2012",
+        "endDate": "1.8.2016"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "type": "programming-language"
+    },
+    { "name": "PostgreSQL", "type": "programming-language" },
+    {
+      "name": "Python",
+      "type": "programming-language"
+    },
+    {
+      "name": "Javascript",
+      "type": "programming-language"
+    },
+    {
+      "name": "CSS",
+      "type": "programming-language"
+    },
+    {
+      "name": "Spring Framework",
+      "type": "application-framework"
+    },
+    {
+      "name": "Hibernate",
+      "type": "application-framework"
+    },
+    {
+      "name": "PostgreSQL",
+      "type": "database-management-system"
+    },
+    {
+      "name": "ReactJS",
+      "type": "software-library"
+    },
+    {
+      "name": "AngularJS",
+      "type": "application-framework"
+    },
+    {
+      "name": "SciKit-Learn",
+      "type": "software-library"
+    }
+  ],
+  "experience": [
+    {
+      "employer": "CGI",
+      "job-title": "Data Developer",
+      "descriptions": [
+        "Back-end -ohjelmistokehitys",
+        "Erikoistuminen datakeskeisten sovellusten ohjelmistokehitykseen soveltaen tekoälyn ja data-analytiikan menetelmiä"
+      ],
+      "technologies": [
+        "Azure ML Studio",
+        "Azure Databricks",
+        "Azure Storage",
+        "Spring Framework (Java)",
+        "Python"
+      ],
+      "period": {
+        "startDate": "1.6.2021",
+        "endDate": "11.10.2021"
+      }
+    },
+    {
+      "employer": "Zeroni Oy",
+      "job-title": "Full-stack kehittäjä",
+      "descriptions": [
+        "Zeroni -nimisen sähköisen työmaajärjestelmän full-stack -kehitys ja ylläpito (ks. Lisätietoja täältä)",
+        "Data platformin kehittämistä AWS:n päälle"
+      ],
+      "technologies": [
+        "Java",
+        "Javascript",
+        "Python",
+        "Spring Framework",
+        "Hibernate",
+        "PostgreSQL",
+        "Liquibase",
+        "AngularJS",
+        "Liquibase",
+        "Bash-script",
+        "Atlassian Bitbucket",
+        "Git",
+        "AWS (S3, KMS, IAM, Glue,         CDK, Athena, QuickSight)",
+        "Apache Spark",
+        "Docker"
+      ],
+      "period": {
+        "startDate": "1.9.2017",
+        "endDate": "31.5.2021"
+      }
+    },
+    {
+      "employer": "Helsinki Institute of Information Technology (HIIT)",
+      "job-title": "Tutkimusavustaja, Re:Know",
+      "descriptions": [
+        "Tietokirjoittamisen tueksi suunnitellun proaktiivisen tiedonhakujärjestelmän implementointi (POC)",
+        "Käyttökokemuskysely ja järjestelmän logien analysointia",
+        "Sopivien koneoppimisalgoritmien testaaminen simulaatioilla (LinRel ja LSTM) tiedonhakukyselyiden avainsanarikastamista varten",
+        "Tutkimusartikkelin kirjoittaminen"
+      ],
+      "technologies": [
+        "Python",
+        "Scipy",
+        "Gensim (NLP-kirjasto)",
+        "Tensorflow",
+        "PyQt",
+        "Bash",
+        "Git",
+        "LaTeX"
+      ],
+      "period": {
+        "startDate": "1.6.2015",
+        "endDate": "31.8.2016"
+      }
+    },
+    {
+      "employer": "TV7",
+      "job-title": "Sound Engineer",
+      "descriptions": [
+        "Lähetysten äänitysten suunnittelu, toteutus ja miksaaminen",
+        "Äänen jälkituotanto ja miksaus"
+      ],
+      "technologies": [
+        "Audinate Dante AV system",
+        "Yamaha CL-series mixers",
+        "Sennheiser",
+        "Shure",
+        "RX Izotope"
+      ],
+      "period": {
+        "startDate": "1.12.2010",
+        "endDate": "31.10.2014"
+      }
+    },
+    {
+      "employer": "Helsingin Yliopisto, Materiaalifysiikan laitos",
+      "job-title": "Tutkimusavustaja",
+      "descriptions": [
+        "Polyeteenin ja selluloosan säteilytyksen tutkimus käyttäen molekyylidynaamisia simulointimenetelmiä",
+        "Skriptien kirjoittamista simulaatoiden ajamista ja datan analysointia varten",
+        "Tutkimusartikkelin kirjoittaminen"
+      ],
+      "technologies": [
+        "C++",
+        "VMD (Visual Molecular Dynamics)",
+        "Awk",
+        "Bash",
+        "RasMOL",
+        "GnuPlot",
+        "LaTeX"
+      ],
+      "period": {
+        "startDate": "1.6.2015",
+        "endDate": "31.8.2016"
+      }
+    }
+  ],
+  "certificates": [
+    {
+      "organization": "Microsoft",
+      "name": "Microsoft Certified: Azure Data Scientist Associate",
+      "date": "2021",
+      "description": "Candidates for the Azure Data Scientist Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure. Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure.",
+      "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/",
+      "accomplishmentUrl": "https://www.credly.com/badges/a076dbe6-cfc5-4af2-a26a-cedf9087b1e2?source=linked_in_profile"
+    },
+    {
+      "organization": "Microsoft",
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "date": "2021",
+      "description": "Candidates for the Azure Fundamentals certification should have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
+      "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/",
+      "accomplishmentUrl": "https://www.credly.com/badges/fccb0eaf-ae12-4e1e-9ecc-2db73e212356/public_url"
+    },
+    {
+      "organization": "Skillsoft",
+      "name": "Enriched Web Development with Angular 11 ",
+      "description": "Angular allows developers to build modern, stylish, and efficient applications. Angular 11, the dynamic JavaScript-based development framework is used to create Single Page Applications (SPA).",
+      "date": "2021",
+      "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/",
+      "accomplishmentUrl": "https://skillsoft.digitalbadges.skillsoft.com/687a4a54-1588-4715-b059-35392cde3530?record_view=true#gs.csm3nf"
+    },
+    {
+      "organization": "IBM",
+      "name": "Fundamentals of Scalable Data Science",
+      "description": "In this course we teach you the fundamentals of Apache Spark using python and pyspark. We'll introduce Apache Spark in the first two weeks and learn how to apply it to compute basic exploratory and data pre-processing tasks in the last two weeks.",
+      "date": "7.3.2021",
+      "url": "https://www.coursera.org/learn/ds",
+      "accomplishmentUrl": "https://www.coursera.org/account/accomplishments/verify/KUL7QYJ934Q4"
+    },
+    {
+      "organization": "University of Helsinki",
+      "name": "Full Stack Open (9 ECTS)",
+      "description": "React, Redux, Node.js, MongoDB, GraphQL ja TypeScript",
+      "date": "1.12.2020",
+      "url": "https://fullstackopen.com/",
+      "accomplishmentUrl": "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/0348bc1388f7df623cc7d721cd657a8e",
+      "badgeUrl": "./assets/img/angular-11-certificate-164430847694.png"
+    },
+    {
+      "organization": "Udemy",
+      "name": "Spring & Hibernate for Beginners",
+      "description": "Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2, Thymeleaf, JPA & Hibernate",
+      "date": "13.7.2017",
+      "url": "https://www.udemy.com/course/spring-hibernate-tutorial/",
+      "accomplishmentUrl": "https://www.udemy.com/certificate/UC-1W76SRLD/"
+    }
+  ]
+}
