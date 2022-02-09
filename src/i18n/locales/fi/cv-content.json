@@ -216,7 +216,7 @@
       "description": "Candidates for the Azure Data Scientist Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure. Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure.",
       "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/",
       "accomplishmentUrl": "https://www.credly.com/badges/a076dbe6-cfc5-4af2-a26a-cedf9087b1e2?source=linked_in_profile",
-      "badgeUrl": "assets/img/certificate-logos/microsoft-certified-data-scientist-associate-badge.svg"
+      "badgeUrl": "assets/img/certificate-logos/ms-data-scientist-associate-badge.svg"
     },
     {
       "organization": "Microsoft",
@@ -225,7 +225,7 @@
       "description": "Candidates for the Azure Fundamentals certification should have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
       "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/",
       "accomplishmentUrl": "https://www.credly.com/badges/fccb0eaf-ae12-4e1e-9ecc-2db73e212356/public_url",
-      "badgeUrl": "assets/img/certificate-logos/microsoft-certified-fundamentals-badge.svg"
+      "badgeUrl": "assets/img/certificate-logos/ms-fundamentals-badge.svg"
     },
     {
       "organization": "Skillsoft",
