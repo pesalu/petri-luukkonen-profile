@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/petri-luukkonen-profile/static/css/main.72d63e1c.css",
-    "main.js": "/petri-luukkonen-profile/static/js/main.2d0761dc.js",
+    "main.css": "/petri-luukkonen-profile/static/css/main.715a9df3.css",
+    "main.js": "/petri-luukkonen-profile/static/js/main.7d6606f4.js",
     "static/js/787.042f60ca.chunk.js": "/petri-luukkonen-profile/static/js/787.042f60ca.chunk.js",
     "index.html": "/petri-luukkonen-profile/index.html",
-    "main.72d63e1c.css.map": "/petri-luukkonen-profile/static/css/main.72d63e1c.css.map",
-    "main.2d0761dc.js.map": "/petri-luukkonen-profile/static/js/main.2d0761dc.js.map",
+    "main.715a9df3.css.map": "/petri-luukkonen-profile/static/css/main.715a9df3.css.map",
+    "main.7d6606f4.js.map": "/petri-luukkonen-profile/static/js/main.7d6606f4.js.map",
     "787.042f60ca.chunk.js.map": "/petri-luukkonen-profile/static/js/787.042f60ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72d63e1c.css",
-    "static/js/main.2d0761dc.js"
+    "static/css/main.715a9df3.css",
+    "static/js/main.7d6606f4.js"
   ]
 }
