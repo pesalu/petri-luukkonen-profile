@@ -569,9 +569,13 @@ img {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.skills__content,
 .languages__content {
   gap: 0;
+}
+
+.skills__content {
+  row-gap: 1rem;
+  column-gap: 1rem;
 }
 
 .skills__name,
@@ -610,6 +614,10 @@ img {
 .certificate__title {
   padding-left: 0.1rem;
   font-size: var(--h3-font-size);
+}
+
+.skill__title {
+  padding-bottom: 0.5rem;
 }
 
 .certificate__data:hover {

@@ -1,7 +1,7 @@
 export function SkillList(props) {
   return (
-    <div className="skill__content">
-      <h3 className="certificate__title">{props.t(props.skillType)}</h3>
+    <div>
+      <h3 className="skill__title">{props.t(props.skillType)}</h3>
       <ul className="skills__data">
         {props
           .t("skills", {

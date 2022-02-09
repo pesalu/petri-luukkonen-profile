@@ -48,7 +48,6 @@ let Body = () => {
       ></Header>
 
       <main className="l-main bd-container">
-        {/*  All elements within this div, is generated in PDF */}
         <div className="resume" id="area-cv">
           <div className="resume__left">
             <Home t={t}></Home>
