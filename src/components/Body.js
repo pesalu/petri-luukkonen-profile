@@ -1,3 +1,5 @@
+import React from "react";
+
 import "../styles/css/styles.css";
 import { useTranslation } from "react-i18next";
 import { Header } from "./Header";
@@ -16,6 +18,17 @@ let Body = () => {
   const { t } = useTranslation("translations", "cvcontent");
   const { i18n } = useTranslation();
 
+  const [viewPortWidth, setViewPortWidth] = React.useState(window.innerWidth);
+  const viewPortWidthLimit = 968;
+  const isDesktop = window.innerWidth > viewPortWidthLimit;
+
+  React.useEffect(() => {
+    let storeViewPortWidthToState = () => setViewPortWidth(window.innerWidth);
+    window.addEventListener("resize", storeViewPortWidthToState);
+    return () =>
+      window.removeEventListener("resize", storeViewPortWidthToState);
+  }, []);
+
   let changeLanguage = (e) => {
     i18n.changeLanguage(e.target.value);
   };
@@ -26,12 +39,12 @@ let Body = () => {
     { navButtonText: t("education"), navIconName: "book", href: "#education" },
     { navButtonText: t("skills"), navIconName: "receipt", href: "#skills" },
     {
-      navButtonText: "experience",
+      navButtonText: t("experience"),
       navIconName: "briefcase",
       href: "#experience",
     },
     {
-      navButtonText: "certificates",
+      navButtonText: t("certificates"),
       navIconName: "award",
       href: "#certificates",
     },
@@ -49,20 +62,35 @@ let Body = () => {
 
       <main className="l-main bd-container">
         <div className="resume" id="area-cv">
-          <div className="resume__left">
-            <Home t={t}></Home>
-            <SocialMedia t={t}></SocialMedia>
-            <ProfileDescription t={t}></ProfileDescription>
-            <Education t={t}></Education>
-            <Skills t={t}></Skills>
-          </div>
-
-          <div className="resume__right">
-            <Experience t={t}></Experience>
-            <Certificates t={t}></Certificates>
-            <Languages t={t}></Languages>
-            <Interests t={t}></Interests>
-          </div>
+          {isDesktop ? (
+            <>
+              <div className="resume__left">
+                <Home t={t}></Home>
+                <SocialMedia t={t}></SocialMedia>
+                <ProfileDescription t={t}></ProfileDescription>
+                <Education t={t}></Education>
+                <Skills t={t}></Skills>
+                <Languages t={t}></Languages>
+                <Interests t={t}></Interests>
+              </div>
+              <div className="resume__right">
+                <Experience t={t}></Experience>
+                <Certificates t={t}></Certificates>
+              </div>
+            </>
+          ) : (
+            <>
+              <Home t={t}></Home>
+              <SocialMedia t={t}></SocialMedia>
+              <ProfileDescription t={t}></ProfileDescription>
+              <Experience t={t}></Experience>
+              <Certificates t={t}></Certificates>
+              <Education t={t}></Education>
+              <Skills t={t}></Skills>
+              <Languages t={t}></Languages>
+              <Interests t={t}></Interests>
+            </>
+          )}
         </div>
       </main>
       <ScrollTopButton></ScrollTopButton>
