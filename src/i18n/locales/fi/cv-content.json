@@ -235,7 +235,7 @@
       "organization": "Microsoft",
       "name": "Microsoft Certified: Azure Data Scientist Associate",
       "date": "31.8.2021",
-      "description": "Candidates for the Azure Data Scientist Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure. Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure.",
+      "description": "Learn to implement and deploy machine learning workloads on Azure",
       "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/",
       "accomplishmentUrl": "https://www.credly.com/badges/a076dbe6-cfc5-4af2-a26a-cedf9087b1e2?source=linked_in_profile",
       "badgeUrl": "assets/img/certificate-logos/ms-data-scientist-associate-badge.svg"
@@ -244,7 +244,7 @@
       "organization": "Microsoft",
       "name": "Microsoft Certified: Azure Fundamentals",
       "date": "2.7.2021",
-      "description": "Candidates for the Azure Fundamentals certification should have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
+      "description": "Foundations of cloud services on Azure",
       "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/",
       "accomplishmentUrl": "https://www.credly.com/badges/fccb0eaf-ae12-4e1e-9ecc-2db73e212356/public_url",
       "badgeUrl": "assets/img/certificate-logos/ms-fundamentals-badge.svg"
@@ -252,7 +252,7 @@
     {
       "organization": "Skillsoft",
       "name": "Enriched Web Development with Angular 11 ",
-      "description": "Angular allows developers to build modern, stylish, and efficient applications. Angular 11, the dynamic JavaScript-based development framework is used to create Single Page Applications (SPA).",
+      "description": "SPA development using front-end framework Angular 11",
       "date": "2021",
       "url": "https://skillsoft.digitalbadges.skillsoft.com/687a4a54-1588-4715-b059-35392cde3530?record_view=true#gs.csm3nf",
       "accomplishmentUrl": "https://skillsoft.digitalbadges.skillsoft.com/687a4a54-1588-4715-b059-35392cde3530?record_view=true#gs.csm3nf",
@@ -261,7 +261,7 @@
     {
       "organization": "IBM",
       "name": "Fundamentals of Scalable Data Science",
-      "description": "In this course we teach you the fundamentals of Apache Spark using python and pyspark. We'll introduce Apache Spark in the first two weeks and learn how to apply it to compute basic exploratory and data pre-processing tasks in the last two weeks.",
+      "description": "Learning to implement scalable data science workloads using Apache Spark, python and pyspark",
       "date": "7.3.2021",
       "url": "https://www.coursera.org/learn/ds",
       "accomplishmentUrl": "https://www.coursera.org/account/accomplishments/verify/KUL7QYJ934Q4",
@@ -270,7 +270,7 @@
     {
       "organization": "University of Helsinki",
       "name": "Full Stack Open (9 ECTS)",
-      "description": "React, Redux, Node.js, MongoDB, GraphQL ja TypeScript",
+      "description": "Learn full stack web app development using React, Redux, Node.js, MongoDB, GraphQL ja TypeScript",
       "date": "1.12.2020",
       "url": "https://fullstackopen.com/",
       "accomplishmentUrl": "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/0348bc1388f7df623cc7d721cd657a8e",
@@ -279,11 +279,42 @@
     {
       "organization": "Udemy",
       "name": "Spring & Hibernate for Beginners",
-      "description": "Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2, Thymeleaf, JPA & Hibernate",
+      "description": "Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2, Thymeleaf, JPA & Hibernate",
       "date": "13.7.2017",
       "url": "https://www.udemy.com/course/spring-hibernate-tutorial/",
       "accomplishmentUrl": "https://www.udemy.com/certificate/UC-1W76SRLD/",
       "badgeUrl": "assets/img/certificate-logos/udemy-logo.png"
+    }
+  ],
+  "publications": [
+    {
+      "chicagoCiteString": "Koskela, Markus, Petri Luukkonen, Tuukka Ruotsalo, Mats Sjöberg, and Patrik Floréen. \"Proactive information retrieval by capturing search intent from primary task context.\" ACM Transactions on Interactive Intelligent Systems (TiiS) 8, no. 3 (2018): 1-25.",
+      "title": "Proactive information retrieval by capturing search intent from primary task context",
+      "author": [
+        {
+          "lastName": "Koskela",
+          "firstName": "Markus"
+        },
+        {
+          "lastName": "Luukkonen",
+          "firstName": "Petri"
+        },
+        { "lastName": "Ruotsalo", "firstName": "Tuukka" },
+        { "lastName": "Sjöberg", "firstName": "Mats" },
+        { "lastName": "Florén", "firstName": "Patrick" }
+      ],
+      "journal": "ACM Transactions on Interactive Intelligent Systems (TiiS)",
+      "volume": 8,
+      "number": 3,
+      "pages": "1--25",
+      "year": 2018,
+      "publisher": "ACM New York, NY, USA"
+    },
+    {
+      "chicagoCiteString": "Luukkonen, Petri, Markus Koskela, and Patrik Floréen. \"LSTM-based predictions for proactive information retrieval.\" arXiv preprint arXiv:1606.06137 (2016)."
+    },
+    {
+      "chicagoCiteString": "Polvi, Jussi, Petri Luukkonen, Kai Nordlund, Tommi T. Järvi, Travis W. Kemper, and Susan B. Sinnott. \"Primary radiation defect production in polyethylene and cellulose.\" The Journal of Physical Chemistry B 116, no. 47 (2012): 13932-13938."
     }
   ],
   "languages": ["suomi", "englanti", "ruotsi (perusteet)", "farsi (alkeet)"],
@@ -291,5 +322,57 @@
     { "boxiconName": "music", "name": "Musiikki" },
     { "boxiconName": "book-reader", "name": "Lukeminen" },
     { "boxiconName": "dumbbell", "name": "Kuntosali" }
+  ],
+  "references": [
+    {
+      "company": "Zeroni Oy",
+      "fullName": "Jussi Ruokomäki",
+      "title": "UI/UX Designer",
+      "phone": "+358505621233",
+      "email": "jussi.ruokomaki@takamaki.fi"
+    },
+    {
+      "company": "Nordic Carbon Oy",
+      "fullName": "Babak Nasiri",
+      "title": "CEO",
+      "phone": "+358505933866",
+      "email": "babak.nasiri@nordiccarbon.com"
+    }
+  ],
+  "publications": [
+    {
+      "chicagoCiteString": "Koskela, Markus, Petri Luukkonen, Tuukka Ruotsalo, Mats Sjöberg, and Patrik Floréen. \"Proactive information retrieval by capturing search intent from primary task context.\" ACM Transactions on Interactive Intelligent Systems (TiiS) 8, no. 3 (2018): 1-25.",
+      "title": "Proactive information retrieval by capturing search intent from primary task context",
+      "author": [
+        {
+          "lastName": "Koskela",
+          "firstName": "Markus"
+        },
+        {
+          "lastName": "Luukkonen",
+          "firstName": "Petri"
+        },
+        { "lastName": "Ruotsalo", "firstName": "Tuukka" },
+        { "lastName": "Sjöberg", "firstName": "Mats" },
+        { "lastName": "Florén", "firstName": "Patrick" }
+      ],
+      "journal": "ACM Transactions on Interactive Intelligent Systems (TiiS)",
+      "volume": 8,
+      "number": 3,
+      "pages": "1--25",
+      "year": 2018,
+      "publisher": "ACM New York, NY, USA",
+      "url": "https://dl.acm.org/doi/10.1145/3150975"
+    },
+    {
+      "title": "LSTM-based predictions for proactive information retrieval.",
+      "chicagoCiteString": "Luukkonen, Petri, Markus Koskela, and Patrik Floréen. \"LSTM-based predictions for proactive information retrieval.\" arXiv preprint arXiv:1606.06137 (2016).",
+      "url": "https://arxiv.org/pdf/1606.06137.pdf"
+    },
+    {
+      "title": "Primary radiation defect production in polyethylene and cellulose.",
+      "chicagoCiteString": "Polvi, Jussi, Petri Luukkonen, Kai Nordlund, Tommi T. Järvi, Travis W. Kemper, and Susan B. Sinnott. \"Primary radiation defect production in polyethylene and cellulose.\" The Journal of Physical Chemistry B 116, no. 47 (2012): 13932-13938.",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/jp309979p"
+    }
   ]
 }

@@ -2,48 +2,75 @@
   "fullName": "Petri Luukkonen",
   "firstName": "Petri",
   "lastName": "Luukkonen",
-  "occupation": "Software Developer",
+  "occupation": "Software Developer, Data Scientist",
   "contactDetails": {
     "city": "Espoo",
     "county": "Uusimaa",
     "email": "petri.luukkonen@protonmail.com",
-    "phone": "+358451112222",
-    "socialmedia": {
-      "linkedin": "https://www.linkedin.com/in/petri-luukkonen-fin/",
-      "soundcloud": "https://soundcloud.com/filmmusicenthusiast"
-    }
+    "phone": "+358452244780",
+    "socialmedia": [
+      {
+        "name": "LinkedIn",
+        "boxIconName": "linkedin-square",
+        "url": "https://www.linkedin.com/in/petri-luukkonen-fin/",
+        "description": "Petri Luukkonen"
+      },
+      {
+        "name": "GitHub",
+        "boxIconName": "github",
+        "url": "https://github.com/pesalu",
+        "description": "GitHub profile"
+      },
+      {
+        "name": "Spotify",
+        "boxIconName": "spotify",
+        "url": "https://open.spotify.com/artist/12cydQvaxFRVOkHNmBN3nE",
+        "description": "Musiikkiprojekti: Showfar"
+      },
+      {
+        "name": "soundcloud",
+        "boxIconName": "soundcloud",
+        "url": "https://soundcloud.com/filmmusicenthusiast",
+        "description": "Film Music Enthusiast (Music Projects)"
+      }
+    ]
   },
   "profileDescription": "Experienced full stack software developer of web based applications with   interest toward intelligent data centric solutions. Petri has acquired experience   from data science projects through academic research and industry  knowledge of web app development.",
   "education": [
     {
-      "school": "University of Helsinki",
+      "school": "Helsingin Yliopisto",
+      "schoolLogoUrl": "assets/img/education-institutes-logos/hy_logo_black.png",
       "degree": "Master of Science",
+      "major": "applied mathematics",
       "period": {
         "startDate": "1.9.2012",
         "endDate": "1.3.2016"
       }
     },
     {
-      "school": "University of Helsinki",
+      "school": "Helsingin Yliopisto",
+      "schoolLogoUrl": "assets/img/education-institutes-logos/hy_logo_black.png",
       "degree": "Bachelor of Science",
+      "major": "physics",
       "period": {
-        "startDate": "1.8.2012",
-        "endDate": "1.8.2016"
+        "startDate": "1.8.2006",
+        "endDate": "1.8.2012"
       }
     }
   ],
+
   "skills": [
     {
       "name": "Java",
       "type": "programming-language"
     },
+    {
+      "name": "Javascript",
+      "type": "programming-language"
+    },
     { "name": "PostgreSQL", "type": "programming-language" },
     {
       "name": "Python",
-      "type": "programming-language"
-    },
-    {
-      "name": "Javascript",
       "type": "programming-language"
     },
     {
@@ -78,10 +105,12 @@
   "experience": [
     {
       "employer": "CGI",
+      "organizationUrl": "https://www.cgi.com/fi/fi",
+      "companyLogo": "assets/img/employer-logos/cgi-logo.jfif",
       "job-title": "Data Developer",
       "descriptions": [
-        "Back-end -ohjelmistokehitys",
-        "Erikoistuminen datakeskeisten sovellusten ohjelmistokehitykseen soveltaen tekoälyn ja data-analytiikan menetelmiä"
+        "Back-end software development",
+        "Specialization to data centric application development by applying machine learning and data analysis techniques"
       ],
       "technologies": [
         "Azure ML Studio",
@@ -97,9 +126,11 @@
     },
     {
       "employer": "Zeroni Oy",
-      "job-title": "Full-stack kehittäjä",
+      "organizationUrl": "https://www.zeroni.fi/",
+      "job-title": "Full-stack developer",
+      "companyLogo": "assets/img/employer-logos/zeroni-logo.png",
       "descriptions": [
-        "Zeroni -nimisen sähköisen työmaajärjestelmän full-stack -kehitys ja ylläpito (ks. Lisätietoja täältä)",
+        "Full stack development of Zeroni, a SaaS for managing construction sites from the angles of supply chain management, approval processes, access control and safety",
         "Data platformin kehittämistä AWS:n päälle"
       ],
       "technologies": [
@@ -115,7 +146,7 @@
         "Bash-script",
         "Atlassian Bitbucket",
         "Git",
-        "AWS (S3, KMS, IAM, Glue,         CDK, Athena, QuickSight)",
+        "AWS (S3, KMS, IAM, Glue, CDK, Athena, QuickSight)",
         "Apache Spark",
         "Docker"
       ],
@@ -126,12 +157,15 @@
     },
     {
       "employer": "Helsinki Institute of Information Technology (HIIT)",
-      "job-title": "Tutkimusavustaja, Re:Know",
+      "organizationUrl": "https://archive.hiit.fi/reknow/home/index.html",
+      "divisionUrl": "https://archive.hiit.fi/reknow/home/index.html",
+      "companyLogo": "assets/img/employer-logos/hiit-logo.png",
+      "job-title": "Research Assistant, Re:Know",
       "descriptions": [
-        "Tietokirjoittamisen tueksi suunnitellun proaktiivisen tiedonhakujärjestelmän implementointi (POC)",
-        "Käyttökokemuskysely ja järjestelmän logien analysointia",
+        "Implementing a system for pro-active information retrieval for a text writing scenario (POC)",
+        "carrying user studies, and analysing user activity data",
         "Sopivien koneoppimisalgoritmien testaaminen simulaatioilla (LinRel ja LSTM) tiedonhakukyselyiden avainsanarikastamista varten",
-        "Tutkimusartikkelin kirjoittaminen"
+        "writing two scientific publications"
       ],
       "technologies": [
         "Python",
@@ -150,10 +184,12 @@
     },
     {
       "employer": "TV7",
+      "organizationUrl": "https://www.tv7.fi/",
+      "companyLogo": "assets/img/employer-logos/tv7.png",
       "job-title": "Sound Engineer",
       "descriptions": [
-        "Lähetysten äänitysten suunnittelu, toteutus ja miksaaminen",
-        "Äänen jälkituotanto ja miksaus"
+        "Planning and making sound recordings, live and post mixing for various TV series and live broadcasts",
+        "Technical documentation"
       ],
       "technologies": [
         "Audinate Dante AV system",
@@ -169,11 +205,15 @@
     },
     {
       "employer": "Helsingin Yliopisto, Materiaalifysiikan laitos",
-      "job-title": "Tutkimusavustaja",
+      "organizationUrl": "https://www.helsinki.fi/fi/matemaattis-luonnontieteellinen-tiedekunta/tiedekunta/fysiikka",
+      "divisionUrl": "https://www.acclab.helsinki.fi/sim/",
+      "companyLogo": "assets/img/employer-logos/hy_logo_black.png",
+      "job-title": "Research Assistant",
       "descriptions": [
-        "Polyeteenin ja selluloosan säteilytyksen tutkimus käyttäen molekyylidynaamisia simulointimenetelmiä",
-        "Skriptien kirjoittamista simulaatoiden ajamista ja datan analysointia varten",
-        "Tutkimusartikkelin kirjoittaminen"
+        "Molecular dynamics simulations of radiation processing of polyethylene and cellulose",
+        "Testing several atomistic interaction models developed for organic compounds.",
+        "Construction of the atomic structures of polyethylene and cellulose and analyzing structure changes",
+        "Writing scripts for performing simulations and analyzing the produced data."
       ],
       "technologies": [
         "C++",
@@ -185,8 +225,8 @@
         "LaTeX"
       ],
       "period": {
-        "startDate": "1.6.2015",
-        "endDate": "31.8.2016"
+        "startDate": "1.6.2008",
+        "endDate": "31.8.2010"
       }
     }
   ],
@@ -194,51 +234,114 @@
     {
       "organization": "Microsoft",
       "name": "Microsoft Certified: Azure Data Scientist Associate",
-      "date": "2021",
-      "description": "Candidates for the Azure Data Scientist Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure. Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure.",
+      "date": "31.8.2021",
+      "description": "Learn to implement and deploy machine learning workloads on Azure",
       "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/",
-      "accomplishmentUrl": "https://www.credly.com/badges/a076dbe6-cfc5-4af2-a26a-cedf9087b1e2?source=linked_in_profile"
+      "accomplishmentUrl": "https://www.credly.com/badges/a076dbe6-cfc5-4af2-a26a-cedf9087b1e2?source=linked_in_profile",
+      "badgeUrl": "assets/img/certificate-logos/ms-data-scientist-associate-badge.svg"
     },
     {
       "organization": "Microsoft",
       "name": "Microsoft Certified: Azure Fundamentals",
-      "date": "2021",
-      "description": "Candidates for the Azure Fundamentals certification should have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
+      "date": "2.7.2021",
+      "description": "Foundations of cloud services on Azure",
       "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/",
-      "accomplishmentUrl": "https://www.credly.com/badges/fccb0eaf-ae12-4e1e-9ecc-2db73e212356/public_url"
+      "accomplishmentUrl": "https://www.credly.com/badges/fccb0eaf-ae12-4e1e-9ecc-2db73e212356/public_url",
+      "badgeUrl": "assets/img/certificate-logos/ms-fundamentals-badge.svg"
     },
     {
       "organization": "Skillsoft",
       "name": "Enriched Web Development with Angular 11 ",
-      "description": "Angular allows developers to build modern, stylish, and efficient applications. Angular 11, the dynamic JavaScript-based development framework is used to create Single Page Applications (SPA).",
+      "description": "SPA development using front-end framework Angular 11",
       "date": "2021",
-      "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/",
-      "accomplishmentUrl": "https://skillsoft.digitalbadges.skillsoft.com/687a4a54-1588-4715-b059-35392cde3530?record_view=true#gs.csm3nf"
+      "url": "https://skillsoft.digitalbadges.skillsoft.com/687a4a54-1588-4715-b059-35392cde3530?record_view=true#gs.csm3nf",
+      "accomplishmentUrl": "https://skillsoft.digitalbadges.skillsoft.com/687a4a54-1588-4715-b059-35392cde3530?record_view=true#gs.csm3nf",
+      "badgeUrl": "assets/img/certificate-logos/angular-11-certificate-164430847694.png"
     },
     {
       "organization": "IBM",
       "name": "Fundamentals of Scalable Data Science",
-      "description": "In this course we teach you the fundamentals of Apache Spark using python and pyspark. We'll introduce Apache Spark in the first two weeks and learn how to apply it to compute basic exploratory and data pre-processing tasks in the last two weeks.",
+      "description": "Learning to implement scalable data science workloads using Apache Spark, python and pyspark",
       "date": "7.3.2021",
       "url": "https://www.coursera.org/learn/ds",
-      "accomplishmentUrl": "https://www.coursera.org/account/accomplishments/verify/KUL7QYJ934Q4"
+      "accomplishmentUrl": "https://www.coursera.org/account/accomplishments/verify/KUL7QYJ934Q4",
+      "badgeUrl": "assets/img/certificate-logos/IBM-Logo-Square.png"
     },
     {
       "organization": "University of Helsinki",
       "name": "Full Stack Open (9 ECTS)",
-      "description": "React, Redux, Node.js, MongoDB, GraphQL ja TypeScript",
+      "description": "Learn full stack web app development using React, Redux, Node.js, MongoDB, GraphQL ja TypeScript",
       "date": "1.12.2020",
       "url": "https://fullstackopen.com/",
       "accomplishmentUrl": "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/0348bc1388f7df623cc7d721cd657a8e",
-      "badgeUrl": "./assets/img/angular-11-certificate-164430847694.png"
+      "badgeUrl": "assets/img/certificate-logos/University_of_Helsinki.svg"
     },
     {
       "organization": "Udemy",
       "name": "Spring & Hibernate for Beginners",
-      "description": "Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2, Thymeleaf, JPA & Hibernate",
+      "description": "Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2, Thymeleaf, JPA & Hibernate",
       "date": "13.7.2017",
       "url": "https://www.udemy.com/course/spring-hibernate-tutorial/",
-      "accomplishmentUrl": "https://www.udemy.com/certificate/UC-1W76SRLD/"
+      "accomplishmentUrl": "https://www.udemy.com/certificate/UC-1W76SRLD/",
+      "badgeUrl": "assets/img/certificate-logos/udemy-logo.png"
+    }
+  ],
+  "publications": [
+    {
+      "chicagoCiteString": "Koskela, Markus, Petri Luukkonen, Tuukka Ruotsalo, Mats Sjöberg, and Patrik Floréen. \"Proactive information retrieval by capturing search intent from primary task context.\" ACM Transactions on Interactive Intelligent Systems (TiiS) 8, no. 3 (2018): 1-25.",
+      "title": "Proactive information retrieval by capturing search intent from primary task context",
+      "author": [
+        {
+          "lastName": "Koskela",
+          "firstName": "Markus"
+        },
+        {
+          "lastName": "Luukkonen",
+          "firstName": "Petri"
+        },
+        { "lastName": "Ruotsalo", "firstName": "Tuukka" },
+        { "lastName": "Sjöberg", "firstName": "Mats" },
+        { "lastName": "Florén", "firstName": "Patrick" }
+      ],
+      "journal": "ACM Transactions on Interactive Intelligent Systems (TiiS)",
+      "volume": 8,
+      "number": 3,
+      "pages": "1--25",
+      "year": 2018,
+      "publisher": "ACM New York, NY, USA",
+      "url": "https://dl.acm.org/doi/10.1145/3150975"
+    },
+    {
+      "title": "LSTM-based predictions for proactive information retrieval.",
+      "chicagoCiteString": "Luukkonen, Petri, Markus Koskela, and Patrik Floréen. \"LSTM-based predictions for proactive information retrieval.\" arXiv preprint arXiv:1606.06137 (2016).",
+      "url": "https://arxiv.org/pdf/1606.06137.pdf"
+    },
+    {
+      "title": "Primary radiation defect production in polyethylene and cellulose.",
+      "chicagoCiteString": "Polvi, Jussi, Petri Luukkonen, Kai Nordlund, Tommi T. Järvi, Travis W. Kemper, and Susan B. Sinnott. \"Primary radiation defect production in polyethylene and cellulose.\" The Journal of Physical Chemistry B 116, no. 47 (2012): 13932-13938.",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/jp309979p"
+    }
+  ],
+  "languages": ["suomi", "englanti", "ruotsi (perusteet)", "farsi (alkeet)"],
+  "interests": [
+    { "boxiconName": "music", "name": "Music" },
+    { "boxiconName": "book-reader", "name": "Reading" },
+    { "boxiconName": "dumbbell", "name": "Gym" }
+  ],
+  "references": [
+    {
+      "company": "Zeroni Oy",
+      "fullName": "Jussi Ruokomäki",
+      "title": "UI/UX Designer",
+      "phone": "+358505621233",
+      "email": "jussi.ruokomaki@takamaki.fi"
+    },
+    {
+      "company": "Nordic Carbon Oy",
+      "fullName": "Babak Nasiri",
+      "title": "CEO",
+      "phone": "+358505933866",
+      "email": "babak.nasiri@nordiccarbon.com"
     }
   ]
 }

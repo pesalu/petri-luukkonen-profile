@@ -1,4 +1,52 @@
 import { ContactDetails } from "./ContactDetails";
+import html2pdf from "html2pdf.js";
+import { useTranslation } from "react-i18next";
+import { useState } from "react";
+
+function LanguageButton(props) {
+  const { i18n } = useTranslation();
+
+  let changeLanguage = (e) => {
+    console.log("lang: ", e.target.value);
+    i18n.changeLanguage(e.target.value);
+  };
+
+  let buttonStyle =
+    props.selectedLang === props.lang
+      ? "language-button selected-language-button"
+      : "language-button";
+
+  return (
+    <button
+      name="change-language"
+      className={buttonStyle}
+      title="Change language"
+      id="change-language-button"
+      value={props.lang}
+      onClick={changeLanguage}
+    >
+      {props.lang}
+    </button>
+  );
+}
+
+function LanguageOptions() {
+  const { i18n } = useTranslation();
+  const [selectedLang, setSelectedLang] = useState("fi");
+
+  const langs = ["fi", "en"];
+
+  return (
+    <div className="language-options">
+      {langs.map((lang) => (
+        <LanguageButton
+          lang={lang}
+          selected={selectedLang === lang}
+        ></LanguageButton>
+      ))}
+    </div>
+  );
+}
 
 export function Home({ t }) {
   let contactDetails = t("contactDetails", {
@@ -51,50 +99,35 @@ export function Home({ t }) {
           phone={phone}
         ></ContactDetails>
       </div>
-      {/*  Theme change button */}
-      {/* <box-icon
-           name="moon"
-           class="change-theme"
-           title="Theme"
-           id="theme-button"
-          ></box-icon> */}
-      {/*  button to generate and download the pdf */}
       <box-icon
         name="download"
         class="generate-pdf"
         title="Generate PDF"
         id="resume-button"
-        onClick={() => {
-          var link = document.createElement("a");
-          link.href = t("cvUrl", {
-            ns: "cvcontent",
-          });
-          link.download = "CV-Petri-Luukkonen-fin.pdf";
-          link.dispatchEvent(new MouseEvent("click"));
-        }}
+        onClick={print()}
       ></box-icon>
-      {/* <div className="language-options">
-           <button
-             name="change-language"
-             className="language-button"
-             title="Change language"
-             id="change-language-button"
-             value="en"
-             onClick={changeLanguage}
-           >
-             EN
-           </button>
-           <button
-             name="change-language"
-             className="language-button"
-             title="Change language"
-             id="change-language-button"
-             value="fi"
-             onClick={changeLanguage}
-           >
-             FIN
-           </button>
-          </div> */}
+      <LanguageOptions></LanguageOptions>
     </section>
   );
+
+  function print() {
+    return () => {
+      var element = document.getElementById("area-cv");
+      element.classList.add("print-styles");
+      // document.getElementById("main");
+      let opt = {
+        margin: 0,
+        filename: "petri-luukkonen-resume.pdf",
+        image: { type: "jpeg", quality: 0.98 },
+        html2canvas: { scale: 4 },
+        jsPDF: { format: "a4", orientation: "portrait" },
+        pagebreak: { mode: "avoid-all", before: "#certificates" },
+      };
+      html2pdf(element, opt);
+
+      setTimeout(() => {
+        element.classList.remove("print-styles");
+      }, 5000);
+    };
+  }
 }
