@@ -1,4 +1,5 @@
 {
+  "cvUrl": "assets/pdf/CV-Petri-Luukkonen-eng.pdf",
   "fullName": "Petri Luukkonen",
   "firstName": "Petri",
   "lastName": "Luukkonen",
@@ -38,17 +39,17 @@
   "profileDescription": "Experienced full stack software developer of web based applications with   interest toward intelligent data centric solutions. Petri has acquired experience   from data science projects through academic research and industry  knowledge of web app development.",
   "education": [
     {
-      "school": "Helsingin Yliopisto",
+      "school": "University of Helsinki",
       "schoolLogoUrl": "assets/img/education-institutes-logos/hy_logo_black.png",
       "degree": "Master of Science",
-      "major": "applied mathematics",
+      "major": "Applied mathematics",
       "period": {
         "startDate": "1.9.2012",
         "endDate": "1.3.2016"
       }
     },
     {
-      "school": "Helsingin Yliopisto",
+      "school": "University of Helsinki",
       "schoolLogoUrl": "assets/img/education-institutes-logos/hy_logo_black.png",
       "degree": "Bachelor of Science",
       "major": "physics",
@@ -131,7 +132,7 @@
       "companyLogo": "assets/img/employer-logos/zeroni-logo.png",
       "descriptions": [
         "Full stack development of Zeroni, a SaaS for managing construction sites from the angles of supply chain management, approval processes, access control and safety",
-        "Data platformin kehittämistä AWS:n päälle"
+        "Developing Data Platform on top of AWS"
       ],
       "technologies": [
         "Java",
@@ -164,7 +165,7 @@
       "descriptions": [
         "Implementing a system for pro-active information retrieval for a text writing scenario (POC)",
         "carrying user studies, and analysing user activity data",
-        "Sopivien koneoppimisalgoritmien testaaminen simulaatioilla (LinRel ja LSTM) tiedonhakukyselyiden avainsanarikastamista varten",
+        "Testing suitable ML algorithms with simulations(LinRel ja LSTM) for keyword enrichment of search queries",
         "writing two scientific publications"
       ],
       "technologies": [
@@ -211,7 +212,7 @@
       "job-title": "Research Assistant",
       "descriptions": [
         "Molecular dynamics simulations of radiation processing of polyethylene and cellulose",
-        "Testing several atomistic interaction models developed for organic compounds.",
+        "Testing several atomistic interaction models developed for organic compounds",
         "Construction of the atomic structures of polyethylene and cellulose and analyzing structure changes",
         "Writing scripts for performing simulations and analyzing the produced data."
       ],
@@ -238,7 +239,7 @@
       "description": "Learn to implement and deploy machine learning workloads on Azure",
       "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/",
       "accomplishmentUrl": "https://www.credly.com/badges/a076dbe6-cfc5-4af2-a26a-cedf9087b1e2?source=linked_in_profile",
-      "badgeUrl": "assets/img/certificate-logos/ms-data-scientist-associate-badge.svg"
+      "badgeUrl": "assets/img/certificate-logos/azure-data-scientist-associate.png"
     },
     {
       "organization": "Microsoft",
@@ -247,7 +248,7 @@
       "description": "Foundations of cloud services on Azure",
       "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/",
       "accomplishmentUrl": "https://www.credly.com/badges/fccb0eaf-ae12-4e1e-9ecc-2db73e212356/public_url",
-      "badgeUrl": "assets/img/certificate-logos/ms-fundamentals-badge.svg"
+      "badgeUrl": "assets/img/certificate-logos/azure-fundamentals.png"
     },
     {
       "organization": "Skillsoft",
@@ -322,11 +323,11 @@
       "url": "https://pubs.acs.org/doi/abs/10.1021/jp309979p"
     }
   ],
-  "languages": ["suomi", "englanti", "ruotsi (perusteet)", "farsi (alkeet)"],
+  "languages": ["Finnish", "English", "Swedish (basics)", "Farsi (elements)"],
   "interests": [
-    { "boxiconName": "music", "name": "Music" },
-    { "boxiconName": "book-reader", "name": "Reading" },
-    { "boxiconName": "dumbbell", "name": "Gym" }
+    { "boxiconName": "bx-music bx-sm", "name": "Music" },
+    { "boxiconName": "bx-book-reader bx-sm", "name": "Reading" },
+    { "boxiconName": "bx-dumbbell bx-sm", "name": "Gym and Running" }
   ],
   "references": [
     {

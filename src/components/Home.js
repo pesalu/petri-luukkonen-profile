@@ -103,14 +103,12 @@ export function Home({ t }) {
               ns: "cvcontent",
             })}
           </h3>
-          {/*  Button to generate and download the pdf. Available for
-          desktop.  assets/pdf/ResumeCvPetriLuukkonen.pdf */}
           <div>
             <a
               href={t("cvUrl", {
                 ns: "cvcontent",
               })}
-              download="CV-Petri-Luukkonen-fin.pdf"
+              download="CV-Petri-Luukkonen.pdf"
               className="home__button-mobile"
               id="resume-button-mobile"
             >
