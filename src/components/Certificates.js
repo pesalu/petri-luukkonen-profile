@@ -12,7 +12,6 @@ export function Certificates(props) {
             returnObjects: true,
           })
           .map((certificate, idx, arr) => {
-            console.log("test");
             return (
               <Certificate key={idx} certificate={certificate}></Certificate>
             );

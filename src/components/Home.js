@@ -38,10 +38,11 @@ function LanguageOptions() {
 
   return (
     <div className="language-options">
-      {langs.map((lang) => (
+      {langs.map((lang, idx, arr) => (
         <LanguageButton
           lang={lang}
           selected={selectedLang === lang}
+          key={idx}
         ></LanguageButton>
       ))}
     </div>

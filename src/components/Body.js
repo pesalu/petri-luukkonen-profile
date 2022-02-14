@@ -79,12 +79,13 @@ let Body = () => {
                       {t("publications", {
                         ns: "cvcontent",
                         returnObjects: true,
-                      }).map((publication) => (
+                      }).map((publication, idx, arr) => (
                         <div
                           className="publication__content"
                           onClick={() => {
                             window.open(publication.url, "_blank");
                           }}
+                          key={idx}
                         >
                           <div className="interests__icon">
                             <box-icon name="receipt"></box-icon>
