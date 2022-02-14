@@ -2,6 +2,7 @@ import { ContactDetails } from "./ContactDetails";
 import html2pdf from "html2pdf.js";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import { BoxIcon } from "./BoxIcon";
 
 function LanguageButton(props) {
   const { i18n } = useTranslation();
@@ -55,12 +56,38 @@ export function Home({ t }) {
     returnObjects: true,
   });
   let { city, county, country, email, phone } = contactDetails;
+
+  function print() {
+    return () => {
+      var element = document.getElementById("area-cv");
+      element.classList.add("print-styles");
+      // document.getElementById("main");
+      let opt = {
+        margin: 0,
+        filename: "petri-luukkonen-resume.pdf",
+        image: { type: "jpeg", quality: 0.98 },
+        html2canvas: { scale: 4 },
+        jsPDF: { format: "a4", orientation: "portrait" },
+        pagebreak: { mode: "avoid-all", before: "#certificates" },
+      };
+      html2pdf(element, opt);
+
+      setTimeout(() => {
+        element.classList.remove("print-styles");
+      }, 5000);
+    };
+  }
+
   return (
     <section className="home" id="home">
       {/*  Theme change button */}
       <div className="home__container section bd-grid">
         <div className="home__data bd-grid">
-          <img src="assets/img/perfil.jpg" alt="" className="home__img" />
+          <img
+            src="assets/img/profile-picture.jpg"
+            alt="Photo of Petri Luukkonen"
+            className="home__img"
+          />
           <h1 className="home__title">
             {t("firstName", {
               ns: "cvcontent",
@@ -100,35 +127,14 @@ export function Home({ t }) {
           phone={phone}
         ></ContactDetails>
       </div>
-      <box-icon
-        name="download"
-        class="generate-pdf"
+      <BoxIcon
+        name="bx-download bx-sm"
+        className="generate-pdf"
         title="Generate PDF"
         id="resume-button"
         onClick={print()}
-      ></box-icon>
+      ></BoxIcon>
       <LanguageOptions></LanguageOptions>
     </section>
   );
-
-  function print() {
-    return () => {
-      var element = document.getElementById("area-cv");
-      element.classList.add("print-styles");
-      // document.getElementById("main");
-      let opt = {
-        margin: 0,
-        filename: "petri-luukkonen-resume.pdf",
-        image: { type: "jpeg", quality: 0.98 },
-        html2canvas: { scale: 4 },
-        jsPDF: { format: "a4", orientation: "portrait" },
-        pagebreak: { mode: "avoid-all", before: "#certificates" },
-      };
-      html2pdf(element, opt);
-
-      setTimeout(() => {
-        element.classList.remove("print-styles");
-      }, 5000);
-    };
-  }
 }
