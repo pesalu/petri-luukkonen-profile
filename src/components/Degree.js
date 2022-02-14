@@ -5,7 +5,7 @@ export function Degree({ degree }) {
         {degree.schoolLogoUrl && (
           <img
             src={degree.schoolLogoUrl}
-            alt="University of Helsinki logo"
+            alt="Education institute logo"
             className="logo__img__small"
           />
         )}

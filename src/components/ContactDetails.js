@@ -1,16 +1,19 @@
+import { BoxIcon } from "./BoxIcon";
+
 export function ContactDetails({ city, county, country, email, phone }) {
+  let boxIconName = "bxl-facebook-cicle";
   return (
     <div className="home__address bd-grid">
       <span className="home__information">
-        <box-icon name="map" class="home__icon"></box-icon>
+        <BoxIcon name="bx-map bx-sm" className="home__icon"></BoxIcon>
         {city}, {county}
       </span>
       <span className="home__information">
-        <box-icon name="envelope" class="home__icon"></box-icon>
+        <BoxIcon name="bx-envelope bx-sm" className="home__icon"></BoxIcon>
         {email}
       </span>
       <span className="home__information">
-        <box-icon name="phone" class="home__icon"></box-icon>
+        <BoxIcon name="bx-phone bx-sm" class="home__icon"></BoxIcon>
         {phone}
       </span>
     </div>

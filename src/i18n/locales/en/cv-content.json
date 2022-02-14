@@ -11,25 +11,25 @@
     "socialmedia": [
       {
         "name": "LinkedIn",
-        "boxIconName": "linkedin-square",
+        "boxIconName": "bxl-linkedin-square bx-sm",
         "url": "https://www.linkedin.com/in/petri-luukkonen-fin/",
         "description": "Petri Luukkonen"
       },
       {
         "name": "GitHub",
-        "boxIconName": "github",
+        "boxIconName": "bxl-github bx-sm",
         "url": "https://github.com/pesalu",
         "description": "GitHub profile"
       },
       {
         "name": "Spotify",
-        "boxIconName": "spotify",
+        "boxIconName": "bxl-spotify bx-sm",
         "url": "https://open.spotify.com/artist/12cydQvaxFRVOkHNmBN3nE",
         "description": "Musiikkiprojekti: Showfar"
       },
       {
         "name": "soundcloud",
-        "boxIconName": "soundcloud",
+        "boxIconName": "bxl-soundcloud bx-sm",
         "url": "https://soundcloud.com/filmmusicenthusiast",
         "description": "Film Music Enthusiast (Music Projects)"
       }

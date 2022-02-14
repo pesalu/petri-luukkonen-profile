@@ -13,6 +13,7 @@ import { Certificates } from "./Certificates";
 import { Languages } from "./Language";
 import { Interests } from "./Interests";
 import { ScrollTopButton } from "./ScrollTopButton";
+import { Publications } from "./Publications";
 
 let Body = () => {
   const { t } = useTranslation("translations", "cvcontent");
@@ -73,37 +74,7 @@ let Body = () => {
                 <div className="resume__right">
                   <Experience t={t}></Experience>
                   <Certificates t={t}></Certificates>
-                  <section className="publication section" id="publications">
-                    <h2 className="section-title">{t("publications")}</h2>
-                    <div className="publication__container">
-                      {t("publications", {
-                        ns: "cvcontent",
-                        returnObjects: true,
-                      }).map((publication, idx, arr) => (
-                        <div
-                          className="publication__content"
-                          onClick={() => {
-                            window.open(publication.url, "_blank");
-                          }}
-                          key={idx}
-                        >
-                          <div className="interests__icon">
-                            <box-icon name="receipt"></box-icon>
-                          </div>
-
-                          <div className="certificate__data">
-                            {/* <h3 className="certificate__title">
-                            {publication.title}
-                          </h3> */}
-
-                            <p className="publication__description">
-                              {publication.chicagoCiteString}
-                            </p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </section>
+                  <Publications t={t}></Publications>
                 </div>
               </>
             ) : (
@@ -113,6 +84,7 @@ let Body = () => {
                 <ProfileDescription t={t}></ProfileDescription>
                 <Experience t={t}></Experience>
                 <Certificates t={t}></Certificates>
+                <Publications t={t}></Publications>
                 <Education t={t}></Education>
                 <Skills t={t}></Skills>
                 <Languages t={t}></Languages>
