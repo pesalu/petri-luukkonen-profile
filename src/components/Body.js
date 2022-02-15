@@ -30,18 +30,22 @@ let Body = () => {
   }, []);
 
   let navBarOptions = [
-    { navButtonText: t("home"), navIconName: "home", href: "#home" },
-    { navButtonText: t("profile"), navIconName: "user", href: "#profile" },
-    { navButtonText: t("education"), navIconName: "book", href: "#education" },
-    { navButtonText: t("skills"), navIconName: "receipt", href: "#skills" },
+    { navButtonText: t("home"), navIconName: "bxs-home", href: "#home" },
+    { navButtonText: t("profile"), navIconName: "bxs-user", href: "#profile" },
+    {
+      navButtonText: t("education"),
+      navIconName: "bx-book",
+      href: "#education",
+    },
+    { navButtonText: t("skills"), navIconName: "bx-receipt", href: "#skills" },
     {
       navButtonText: t("experience"),
-      navIconName: "briefcase",
+      navIconName: "bxs-briefcase",
       href: "#experience",
     },
     {
       navButtonText: t("certificates"),
-      navIconName: "award",
+      navIconName: "bxs-award",
       href: "#certificates",
     },
   ];

@@ -212,9 +212,9 @@
       "job-title": "Research Assistant",
       "descriptions": [
         "Molecular dynamics simulations of radiation processing of polyethylene and cellulose",
+        "Writing scripts for performing atomistic simulations and analyzing the produced data",
         "Testing several atomistic interaction models developed for organic compounds",
-        "Construction of the atomic structures of polyethylene and cellulose and analyzing structure changes",
-        "Writing scripts for performing simulations and analyzing the produced data."
+        "Construction of the atomic structures of polyethylene and cellulose and analyzing structure changes"
       ],
       "technologies": [
         "C++",

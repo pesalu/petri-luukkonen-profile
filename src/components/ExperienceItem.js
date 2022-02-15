@@ -19,7 +19,7 @@ export function ExperienceItem(props) {
           )} */}
       </div>
 
-      <div className="experience__data bd-grid">
+      <div className="experience__data bd-grid" id="experience__content">
         <h3 className="experience__title">{props.exp["job-title"]}</h3>
         <span className="experience__company">
           {props.exp.period.startDate} - {props.exp.period.endDate} |{" "}
@@ -27,6 +27,9 @@ export function ExperienceItem(props) {
         </span>
         <p className="experience__description">
           {props.exp.descriptions.join(". ")}
+        </p>
+        <p className="technology__description">
+          <b>Tech. stack:</b> {props.exp.technologies.join(", ")}
         </p>
       </div>
     </div>

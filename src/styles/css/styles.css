@@ -25,6 +25,7 @@
   --normal-font-size: 0.938rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
+  --very-small-font-size: 0.513rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
@@ -526,6 +527,10 @@ img {
   font-size: var(--small-font-size);
 }
 
+.technology__description {
+  font-size: var(--smaller-font-size);
+}
+
 /*========== SKILLS AND LANGUAGES ==========*/
 .skills__content,
 .languages__content {
@@ -843,22 +848,14 @@ div.print-styles {
 .print-styles footer,
 .print-styles aside,
 .print-styles nav,
-.print-styles form,
-.print-styles iframe,
-.print-styles .menu,
-.print-styles .hero,
-.print-styles .adslot,
 .print-styles .generate-pdf,
 .print-styles .home__button-mobile,
 .print-styles .language-options {
   display: none;
 }
 
-/*========== Font size variables to scale cv ==========*/
-/*========== Classes modified to reduce size and print on A4 sheet, TO DO ==========*/
-
 .print-styles .section-title {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0rem;
 }
 
 .print-styles .resume__left,

@@ -1,4 +1,5 @@
 import { NavMenu } from "./NavMenu";
+import { BoxIcon } from "./BoxIcon";
 
 export function Header(props) {
   return (
@@ -11,7 +12,7 @@ export function Header(props) {
         <NavMenu navBarOptions={props.navBarOptions}></NavMenu>
 
         <div className="nav__toggle" id="nav-toggle">
-          <box-icon name="grid-alt"></box-icon>
+          <BoxIcon name="bxs-grid"></BoxIcon>
         </div>
       </nav>
     </header>

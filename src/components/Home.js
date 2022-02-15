@@ -61,14 +61,13 @@ export function Home({ t }) {
     return () => {
       var element = document.getElementById("area-cv");
       element.classList.add("print-styles");
-      // document.getElementById("main");
       let opt = {
         margin: 0,
         filename: "petri-luukkonen-resume.pdf",
         image: { type: "jpeg", quality: 0.98 },
         html2canvas: { scale: 4 },
         jsPDF: { format: "a4", orientation: "portrait" },
-        pagebreak: { mode: "avoid-all", before: "#certificates" },
+        pagebreak: { mode: "avoid-all", after: "#experience" },
       };
       html2pdf(element, opt);
 
