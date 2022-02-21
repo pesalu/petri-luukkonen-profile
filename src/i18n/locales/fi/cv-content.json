@@ -12,6 +12,12 @@
     "phone": "+358452244780",
     "socialmedia": [
       {
+        "name": "Personal web page",
+        "boxIconName": "bx-globe bx-sm",
+        "url": "https://pesalu.github.io/petri-luukkonen-profile",
+        "description": "https://pesalu.github.io/petri-luukkonen-profile"
+      },
+      {
         "name": "LinkedIn",
         "boxIconName": "bxl-linkedin-square bx-sm",
         "url": "https://www.linkedin.com/in/petri-luukkonen-fin/",
