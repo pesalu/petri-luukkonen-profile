@@ -111,6 +111,27 @@
   ],
   "experience": [
     {
+      "employer": "QPR Software Plc",
+      "organizationUrl": "https://www.qpr.com/",
+      "companyLogo": "assets/img/employer-logos/qpr-logo.png",
+      "job-title": "Software developer / Azure Cloud Engineer (internship)",
+      "descriptions": [
+        "Front-end development of QPR Metrics UI",
+        "Deployment of new and existing solutions to Azure cloud"
+      ],
+      "technologies": [
+        "Javascript",
+        "Azure infrastructure services (VNet, Gateways, NSGs etc)",
+        "Azure Storage, VMs, Container Instances",
+        "Azure CLI scripts (bash/powershell)",
+        "Microsoft SQL Server database"
+      ],
+      "period": {
+        "startDate": "31.3.2021",
+        "endDate": "current"
+      }
+    },
+    {
       "employer": "CGI",
       "organizationUrl": "https://www.cgi.com/fi/fi",
       "companyLogo": "assets/img/employer-logos/cgi-logo.jfif",
@@ -237,6 +258,15 @@
     }
   ],
   "certificates": [
+    {
+      "organization": "Microsoft",
+      "name": "Microsoft Certified: Azure Administrator",
+      "date": "1.8.2022",
+      "description": "Implementing, managing, and monitoring an organization’s Microsoft Azure environment, including virtual networks, storage, compute, identity, security, and governance",
+      "url": "https://docs.microsoft.com/en-us/certifications/exams/az-104",
+      "accomplishmentUrl": "https://www.credly.com/badges/c2e1e73b-b8f5-4c65-85e4-deb6dfbf697a/public_url",
+      "badgeUrl": "assets/img/certificate-logos/azure-administrator-associate-badge.png"
+    },
     {
       "organization": "Microsoft",
       "name": "Microsoft Certified: Azure Data Scientist Associate",
