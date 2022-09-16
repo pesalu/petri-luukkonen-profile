@@ -14,6 +14,7 @@ import { Languages } from "./Language";
 import { Interests } from "./Interests";
 import { ScrollTopButton } from "./ScrollTopButton";
 import { Publications } from "./Publications";
+import { Projects } from "./Projects";
 
 let Body = () => {
   const { t } = useTranslation("translations", "cvcontent");
@@ -78,6 +79,7 @@ let Body = () => {
                 <div className="resume__right">
                   <Experience t={t}></Experience>
                   <Certificates t={t}></Certificates>
+                  <Projects t={t}></Projects>
                   <Publications t={t}></Publications>
                 </div>
               </>
@@ -88,6 +90,7 @@ let Body = () => {
                 <ProfileDescription t={t}></ProfileDescription>
                 <Experience t={t}></Experience>
                 <Certificates t={t}></Certificates>
+                <Projects t={t}></Projects>
                 <Publications t={t}></Publications>
                 <Education t={t}></Education>
                 <Skills t={t}></Skills>

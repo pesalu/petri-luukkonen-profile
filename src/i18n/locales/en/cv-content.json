@@ -108,7 +108,7 @@
       "employer": "QPR Software Plc",
       "organizationUrl": "https://www.qpr.com/",
       "companyLogo": "assets/img/employer-logos/qpr-logo.png",
-      "job-title": "Azure Cloud Engineer / Software developer (internship)",
+      "job-title": "Software developer / Cloud Engineer (internship)",
       "descriptions": [
         "Front-end development of QPR Metrics UI",
         "Deployment of new and existing solutions to Azure cloud"
@@ -252,9 +252,18 @@
       }
     }
   ],
+  "projects": [
+    {
+      "projectLogo": "assets/img/project-logos/omnifood-logo.png",
+      "name": "Omnifood",
+      "description": "Sample product page for Omnifood food delivery application. Final project of course Build Responsive Real-World Websites with HTML and CSS.",
+      "url": "https://omnifood-pl.netlify.app/"
+    }
+  ],
   "certificates": [
     {
       "organization": "Microsoft",
+      "category": "cloud",
       "name": "Microsoft Certified: Azure Administrator",
       "date": "1.8.2022",
       "description": "Implementing, managing, and monitoring an organization’s Microsoft Azure environment, including virtual networks, storage, compute, identity, security, and governance",
@@ -264,6 +273,7 @@
     },
     {
       "organization": "Microsoft",
+      "category": "cloud;data science",
       "name": "Microsoft Certified: Azure Data Scientist Associate",
       "date": "31.8.2021",
       "description": "Learn to implement and deploy machine learning workloads on Azure",
@@ -273,6 +283,7 @@
     },
     {
       "organization": "Microsoft",
+      "category": "cloud",
       "name": "Microsoft Certified: Azure Fundamentals",
       "date": "2.7.2021",
       "description": "Foundations of cloud services on Azure",
@@ -306,6 +317,15 @@
       "url": "https://fullstackopen.com/",
       "accomplishmentUrl": "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/0348bc1388f7df623cc7d721cd657a8e",
       "badgeUrl": "assets/img/certificate-logos/University_of_Helsinki.svg"
+    },
+    {
+      "organization": "Udemy",
+      "name": "Build Responsive Real-World Websites with HTML and CSS",
+      "description": "Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid",
+      "date": "3.5.2022",
+      "url": "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/",
+      "accomplishmentUrl": "https://www.udemy.com/certificate/UC-50e017e8-4723-488d-ad5a-5a9c0b81cf36/",
+      "badgeUrl": "assets/img/certificate-logos/udemy-logo.png"
     },
     {
       "organization": "Udemy",
