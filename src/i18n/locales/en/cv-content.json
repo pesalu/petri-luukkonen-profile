@@ -258,6 +258,12 @@
       "name": "Omnifood",
       "description": "Sample product page for Omnifood food delivery application. Final project of course Build Responsive Real-World Websites with HTML and CSS.",
       "url": "https://omnifood-pl.netlify.app/"
+    },
+    {
+      "projectLogo": "assets/img/project-logos/crazy-plane-logo.jpg",
+      "name": "Crazy Plane",
+      "description": "Sample game written using Three.JS (part of a course Learn Three.JS Game development)",
+      "url": "https://agreeable-plant-0d5648a03.1.azurestaticapps.net/"
     }
   ],
   "certificates": [
