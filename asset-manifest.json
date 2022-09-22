@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/pesalu/petri-luukkonen-profile/static/css/main.f1c2e309.css",
-    "main.js": "/pesalu/petri-luukkonen-profile/static/js/main.2dca7fee.js",
-    "static/js/703.19116ac6.chunk.js": "/pesalu/petri-luukkonen-profile/static/js/703.19116ac6.chunk.js",
-    "static/js/898.074b6631.chunk.js": "/pesalu/petri-luukkonen-profile/static/js/898.074b6631.chunk.js",
-    "static/js/787.042f60ca.chunk.js": "/pesalu/petri-luukkonen-profile/static/js/787.042f60ca.chunk.js",
-    "index.html": "/pesalu/petri-luukkonen-profile/index.html",
-    "main.f1c2e309.css.map": "/pesalu/petri-luukkonen-profile/static/css/main.f1c2e309.css.map",
-    "main.2dca7fee.js.map": "/pesalu/petri-luukkonen-profile/static/js/main.2dca7fee.js.map",
-    "703.19116ac6.chunk.js.map": "/pesalu/petri-luukkonen-profile/static/js/703.19116ac6.chunk.js.map",
-    "898.074b6631.chunk.js.map": "/pesalu/petri-luukkonen-profile/static/js/898.074b6631.chunk.js.map",
-    "787.042f60ca.chunk.js.map": "/pesalu/petri-luukkonen-profile/static/js/787.042f60ca.chunk.js.map"
+    "main.css": "/petri-luukkonen-profile/static/css/main.f1c2e309.css",
+    "main.js": "/petri-luukkonen-profile/static/js/main.1a2ce24f.js",
+    "static/js/703.19116ac6.chunk.js": "/petri-luukkonen-profile/static/js/703.19116ac6.chunk.js",
+    "static/js/898.074b6631.chunk.js": "/petri-luukkonen-profile/static/js/898.074b6631.chunk.js",
+    "static/js/787.042f60ca.chunk.js": "/petri-luukkonen-profile/static/js/787.042f60ca.chunk.js",
+    "index.html": "/petri-luukkonen-profile/index.html",
+    "main.f1c2e309.css.map": "/petri-luukkonen-profile/static/css/main.f1c2e309.css.map",
+    "main.1a2ce24f.js.map": "/petri-luukkonen-profile/static/js/main.1a2ce24f.js.map",
+    "703.19116ac6.chunk.js.map": "/petri-luukkonen-profile/static/js/703.19116ac6.chunk.js.map",
+    "898.074b6631.chunk.js.map": "/petri-luukkonen-profile/static/js/898.074b6631.chunk.js.map",
+    "787.042f60ca.chunk.js.map": "/petri-luukkonen-profile/static/js/787.042f60ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1c2e309.css",
-    "static/js/main.2dca7fee.js"
+    "static/js/main.1a2ce24f.js"
   ]
 }
