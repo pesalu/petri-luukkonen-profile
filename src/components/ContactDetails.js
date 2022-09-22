@@ -1,7 +1,6 @@
 import { BoxIcon } from "./BoxIcon";
 
 export function ContactDetails({ city, county, country, email, phone }) {
-  let boxIconName = "bxl-facebook-cicle";
   return (
     <div className="home__address bd-grid">
       <span className="home__information">

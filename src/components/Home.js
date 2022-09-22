@@ -32,7 +32,6 @@ function LanguageButton(props) {
 }
 
 function LanguageOptions() {
-  const { i18n } = useTranslation();
   const [selectedLang, setSelectedLang] = useState("fi");
 
   const langs = ["fi", "en"];
@@ -84,7 +83,7 @@ export function Home({ t }) {
         <div className="home__data bd-grid">
           <img
             src="assets/img/profile-picture.jpg"
-            alt="Photo of Petri Luukkonen"
+            alt="Petri Luukkonen"
             className="home__img"
           />
           <h1 className="home__title">

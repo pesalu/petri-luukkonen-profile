@@ -12,7 +12,6 @@ export function SocialMedia(props) {
     ns: "cvcontent",
     returnObjects: true,
   });
-  let str = "user";
   return (
     <section className="social section">
       <h2 className="section-title">{props.t("social")}</h2>
@@ -20,6 +19,7 @@ export function SocialMedia(props) {
         {socialMediaAccounts.map((account, idx, arr) => (
           <a
             href={account.url}
+            rel="noreferrer"
             target="_blank"
             className="social__link"
             key={idx}
