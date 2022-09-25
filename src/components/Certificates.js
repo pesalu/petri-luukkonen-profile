@@ -19,12 +19,20 @@ const certificateListStyles = {
     title: {
       className: "certificate__title",
     },
+    metaData: {
+      className: "meta_data",
+    },
+    description: {
+      className: "item_description",
+    },
   },
 };
 
 export function Certificates({ listTitle, certificates }) {
   certificates.forEach((certificate) => {
     certificate.imgUrl = certificate.badgeUrl;
+    certificate.imgLink = certificate.url;
+    certificate.url = certificate.accomplishmentUrl;
   });
 
   return (

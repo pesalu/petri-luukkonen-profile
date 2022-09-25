@@ -9,7 +9,6 @@ import { ProfileDescription } from "./ProfileDescription";
 import { Education } from "./Education";
 import { Skills } from "./Skills";
 import { Experience } from "./Experience";
-// import { Certificates } from "./Certificates";
 import { Languages } from "./Language";
 import { Interests } from "./Interests";
 import { ScrollTopButton } from "./ScrollTopButton";
@@ -86,8 +85,20 @@ let Body = () => {
                       returnObjects: true,
                     })}
                   ></Certificates>
-                  <Projects t={t}></Projects>
-                  <Publications t={t}></Publications>
+                  <Projects
+                    listTitle={t("projects")}
+                    projects={t("projects", {
+                      ns: "cvcontent",
+                      returnObjects: true,
+                    })}
+                  ></Projects>
+                  <Publications
+                    listTitle={t("publications")}
+                    publications={t("publications", {
+                      ns: "cvcontent",
+                      returnObjects: true,
+                    })}
+                  ></Publications>
                 </div>
               </>
             ) : (
@@ -103,8 +114,20 @@ let Body = () => {
                     returnObjects: true,
                   })}
                 ></Certificates>
-                <Projects t={t}></Projects>
-                <Publications t={t}></Publications>
+                <Projects
+                  listTitle={t("projects")}
+                  projects={t("projects", {
+                    ns: "cvcontent",
+                    returnObjects: true,
+                  })}
+                ></Projects>
+                <Publications
+                  listTitle={t("publications")}
+                  publications={t("publications", {
+                    ns: "cvcontent",
+                    returnObjects: true,
+                  })}
+                ></Publications>
                 <Education t={t}></Education>
                 <Skills t={t}></Skills>
                 <Languages t={t}></Languages>

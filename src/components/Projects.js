@@ -1,20 +1,47 @@
-import { Project } from "./Project";
+import { List } from "./List";
 
-export function Projects(props) {
+const projectListStyles = {
+  section: {
+    className: "certificate section",
+  },
+  title: {
+    className: "section-title",
+  },
+  container: {
+    className: "certificate__container bd-grid",
+  },
+  item: {
+    section: {
+      className: "certificate__content",
+    },
+    container: {
+      className: "certificate__data bd-grid",
+    },
+    title: {
+      className: "certificate__title",
+    },
+    metaData: {
+      className: "meta_data",
+    },
+    description: {
+      className: "item_description",
+    },
+  },
+};
+
+export function Projects({ listTitle, projects }) {
+  console.log(projects);
+  projects.forEach((project) => {
+    project.imgUrl = project.projectLogo;
+    project.imgLink = project.url;
+  });
+
   return (
-    <section className="certificate section" id="certificates">
-      <h2 className="section-title">{props.t("projects")}</h2>
-
-      <div className="certificate__container bd-grid">
-        {props
-          .t("projects", {
-            ns: "cvcontent",
-            returnObjects: true,
-          })
-          .map((project, idx, arr) => {
-            return <Project key={idx} project={project}></Project>;
-          })}
-      </div>
-    </section>
+    <List
+      id="projects"
+      title={listTitle}
+      items={projects}
+      style={projectListStyles}
+    ></List>
   );
 }

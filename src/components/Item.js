@@ -1,8 +1,10 @@
+import { BoxIcon } from "./BoxIcon";
+
 export function Item({ data, style }) {
   console.log(data);
   return (
     <div className={style.section.className}>
-      {data.imgUrl && (
+      {data.imgUrl ? (
         <img
           src={data.imgUrl}
           alt="certificate badge"
@@ -11,6 +13,10 @@ export function Item({ data, style }) {
             window.open(data.imgLink, "_blank");
           }}
         />
+      ) : (
+        <div className="interests__icon">
+          <BoxIcon name="bx-receipt"></BoxIcon>
+        </div>
       )}
 
       <div
@@ -22,11 +28,11 @@ export function Item({ data, style }) {
         <h3 className={style.title.className}>{data.name}</h3>
         {data.data ||
           (data.organization && (
-            <span className="education__studies">
+            <span className={style.metaData.className}>
               {data.date} | {data.organization}
             </span>
           ))}
-        <p className="certificate__description">{data.description}</p>
+        <p className={style.description.className}>{data.description}</p>
       </div>
     </div>
   );
