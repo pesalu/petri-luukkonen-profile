@@ -9,12 +9,13 @@ import { ProfileDescription } from "./ProfileDescription";
 import { Education } from "./Education";
 import { Skills } from "./Skills";
 import { Experience } from "./Experience";
-import { Certificates } from "./Certificates";
+// import { Certificates } from "./Certificates";
 import { Languages } from "./Language";
 import { Interests } from "./Interests";
 import { ScrollTopButton } from "./ScrollTopButton";
 import { Publications } from "./Publications";
 import { Projects } from "./Projects";
+import { Certificates } from "./Certificates";
 
 let Body = () => {
   const { t } = useTranslation("translations", "cvcontent");
@@ -78,7 +79,13 @@ let Body = () => {
                 </div>
                 <div className="resume__right">
                   <Experience t={t}></Experience>
-                  <Certificates t={t}></Certificates>
+                  <Certificates
+                    listTitle={t("certificates")}
+                    certificates={t("certificates", {
+                      ns: "cvcontent",
+                      returnObjects: true,
+                    })}
+                  ></Certificates>
                   <Projects t={t}></Projects>
                   <Publications t={t}></Publications>
                 </div>
@@ -89,7 +96,13 @@ let Body = () => {
                 <SocialMedia t={t}></SocialMedia>
                 <ProfileDescription t={t}></ProfileDescription>
                 <Experience t={t}></Experience>
-                <Certificates t={t}></Certificates>
+                <Certificates
+                  listTitle={t("certificates")}
+                  certificates={t("certificates", {
+                    ns: "cvcontent",
+                    returnObjects: true,
+                  })}
+                ></Certificates>
                 <Projects t={t}></Projects>
                 <Publications t={t}></Publications>
                 <Education t={t}></Education>
