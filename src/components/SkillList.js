@@ -1,6 +1,6 @@
 export function SkillList(props) {
   return (
-    <div class="skill__list">
+    <div className="skill__list">
       <h3 className="skill__title">{props.t(props.listName)}</h3>
       <ul className="skills__data">
         {props

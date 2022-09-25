@@ -517,6 +517,7 @@ img {
   font-size: var(--h3-font-size);
 }
 
+.meta_data,
 .education__studies,
 .experience__company {
   font-size: var(--small-font-size);
