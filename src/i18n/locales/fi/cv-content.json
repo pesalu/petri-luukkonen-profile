@@ -128,7 +128,7 @@
       ],
       "period": {
         "startDate": "31.3.2021",
-        "endDate": "current"
+        "endDate": "26.9.2022"
       }
     },
     {
@@ -269,6 +269,12 @@
       "name": "Crazy Plane",
       "description": "Sample game written using Three.JS (part of a course Learn Three.JS Game development)",
       "url": "https://agreeable-plant-0d5648a03.1.azurestaticapps.net/"
+    },
+    {
+      "projectLogo": "assets/img/project-logos/linechartlogo.jpg",
+      "name": "FinDat",
+      "description": "Sample React demo using D3 for generating SVG graphics",
+      "url": "https://victorious-glacier-0527aee03.2.azurestaticapps.net/"
     }
   ],
   "certificates": [
@@ -343,6 +349,21 @@
       "url": "https://www.udemy.com/course/spring-hibernate-tutorial/",
       "accomplishmentUrl": "https://www.udemy.com/certificate/UC-1W76SRLD/",
       "badgeUrl": "assets/img/certificate-logos/udemy-logo.png"
+    }
+  ],
+  "training": [
+    {
+      "organization": "Saranen Consulting Oy",
+      "name": "Microsoft Azure Academy (infra track)",
+      "description": "The training included content from Azure Fundamentals and Administrator learning paths and Power Platform. Majority of the time was working as an intern in Saranen's Consulting partner company.",
+      "period": {
+        "startDate": "30.3.2022",
+        "endDate": "26.9.2022"
+      },
+      "date": "26.9.2022",
+      "url": "https://www.udemy.com/course/spring-hibernate-tutorial/",
+      "accomplishmentUrl": "https://www.saranen.fi/rekrytointikoulutus/microsoft-azure-academy",
+      "badgeUrl": "assets/img/education-institutes-logos/saranen-consulting.png"
     }
   ],
   "publications": [

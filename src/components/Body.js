@@ -15,6 +15,7 @@ import { ScrollTopButton } from "./ScrollTopButton";
 import { Publications } from "./Publications";
 import { Projects } from "./Projects";
 import { Certificates } from "./Certificates";
+import { Training } from "./Training";
 
 let Body = () => {
   const { t } = useTranslation("translations", "cvcontent");
@@ -85,6 +86,13 @@ let Body = () => {
                       returnObjects: true,
                     })}
                   ></Certificates>
+                  <Training
+                    listTitle={t("training")}
+                    certificates={t("training", {
+                      ns: "cvcontent",
+                      returnObjects: true,
+                    })}
+                  ></Training>
                   <Projects
                     listTitle={t("projects")}
                     projects={t("projects", {

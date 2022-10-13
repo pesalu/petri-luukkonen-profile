@@ -14,8 +14,8 @@ export function Item({ data, style }) {
           }}
         />
       ) : (
-        <div className="interests__icon">
-          <BoxIcon name="bx-receipt"></BoxIcon>
+        <div className="badge__img__small">
+          <BoxIcon name="bx-receipt bx-lg"></BoxIcon>
         </div>
       )}
 
@@ -29,7 +29,10 @@ export function Item({ data, style }) {
         {data.data ||
           (data.organization && (
             <span className={style.metaData.className}>
-              {data.date} | {data.organization}
+              {data.period
+                ? `${data.period.startDate} - ${data.period.endDate}`
+                : data.date}{" "}
+              | {data.organization}
             </span>
           ))}
         <p className={style.description.className}>{data.description}</p>
