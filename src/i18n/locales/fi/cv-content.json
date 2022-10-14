@@ -259,6 +259,12 @@
   ],
   "projects": [
     {
+      "projectLogo": "assets/img/project-logos/linechartlogo.png",
+      "name": "FinDat",
+      "description": "Sample React demo using D3 for generating SVG graphics (Only desktop compatible view at the moment).",
+      "url": "https://victorious-glacier-0527aee03.2.azurestaticapps.net/"
+    },
+    {
       "projectLogo": "assets/img/project-logos/omnifood-logo.png",
       "name": "Omnifood",
       "description": "Sample product page for Omnifood food delivery application. Final project of course Build Responsive Real-World Websites with HTML and CSS.",
@@ -269,12 +275,6 @@
       "name": "Crazy Plane",
       "description": "Sample game written using Three.JS (part of a course Learn Three.JS Game development)",
       "url": "https://agreeable-plant-0d5648a03.1.azurestaticapps.net/"
-    },
-    {
-      "projectLogo": "assets/img/project-logos/linechartlogo.jpg",
-      "name": "FinDat",
-      "description": "Sample React demo using D3 for generating SVG graphics",
-      "url": "https://victorious-glacier-0527aee03.2.azurestaticapps.net/"
     }
   ],
   "certificates": [

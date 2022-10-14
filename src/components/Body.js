@@ -79,6 +79,13 @@ let Body = () => {
                 </div>
                 <div className="resume__right">
                   <Experience t={t}></Experience>
+                  <Projects
+                    listTitle={t("projects")}
+                    projects={t("projects", {
+                      ns: "cvcontent",
+                      returnObjects: true,
+                    })}
+                  ></Projects>
                   <Certificates
                     listTitle={t("certificates")}
                     certificates={t("certificates", {
@@ -93,13 +100,6 @@ let Body = () => {
                       returnObjects: true,
                     })}
                   ></Training>
-                  <Projects
-                    listTitle={t("projects")}
-                    projects={t("projects", {
-                      ns: "cvcontent",
-                      returnObjects: true,
-                    })}
-                  ></Projects>
                   <Publications
                     listTitle={t("publications")}
                     publications={t("publications", {
@@ -115,13 +115,6 @@ let Body = () => {
                 <SocialMedia t={t}></SocialMedia>
                 <ProfileDescription t={t}></ProfileDescription>
                 <Experience t={t}></Experience>
-                <Certificates
-                  listTitle={t("certificates")}
-                  certificates={t("certificates", {
-                    ns: "cvcontent",
-                    returnObjects: true,
-                  })}
-                ></Certificates>
                 <Projects
                   listTitle={t("projects")}
                   projects={t("projects", {
@@ -129,6 +122,13 @@ let Body = () => {
                     returnObjects: true,
                   })}
                 ></Projects>
+                <Certificates
+                  listTitle={t("certificates")}
+                  certificates={t("certificates", {
+                    ns: "cvcontent",
+                    returnObjects: true,
+                  })}
+                ></Certificates>
                 <Publications
                   listTitle={t("publications")}
                   publications={t("publications", {

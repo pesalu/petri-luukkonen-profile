@@ -256,7 +256,7 @@
     {
       "projectLogo": "assets/img/project-logos/linechartlogo.png",
       "name": "FinDat",
-      "description": "Sample React demo using D3 for generating SVG graphics",
+      "description": "Sample React demo using D3 for generating SVG graphics (Only desktop compatible view at the moment).",
       "url": "https://victorious-glacier-0527aee03.2.azurestaticapps.net/"
     },
     {

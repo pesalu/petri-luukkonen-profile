@@ -106,7 +106,7 @@ export function Home({ t }) {
               href={t("cvUrl", {
                 ns: "cvcontent",
               })}
-              download="CV-Petri-Luukkonen.pdf"
+              download="CV-Petri-Luukkonen-eng.pdf"
               className="home__button-mobile"
               id="resume-button-mobile"
             >
@@ -128,7 +128,14 @@ export function Home({ t }) {
         className="generate-pdf"
         title="Generate PDF"
         id="resume-button"
-        onClick={print()}
+        onClick={() => {
+          var link = document.createElement("a");
+          link.href = t("cvUrl", {
+            ns: "cvcontent",
+          });
+          link.download = "CV-Petri-Luukkonen-eng.pdf";
+          link.dispatchEvent(new MouseEvent("click"));
+        }}
       ></BoxIcon>
       <LanguageOptions></LanguageOptions>
     </section>
