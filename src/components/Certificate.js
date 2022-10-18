@@ -1,6 +1,7 @@
 import { BoxIcon } from "./BoxIcon";
 
-export function Item({ data, style }) {
+export function Certificate({ data, style }) {
+  console.log(data);
   return (
     <div className={style.section.className}>
       {data.imgUrl ? (
@@ -27,14 +28,19 @@ export function Item({ data, style }) {
         <div class="open_new_tab_icon">
           <BoxIcon name="bx-up-arrow-alt bx-sm"></BoxIcon>
         </div>
-        <h3 className={style.title.className}>{data.name}</h3>
+        <h3 className={style.title.className}>{data.name} </h3>
         {data.data ||
           (data.organization && (
             <span className={style.metaData.className}>
               {data.period
                 ? `${data.period.startDate} - ${data.period.endDate}`
                 : data.date}{" "}
-              | {data.organization}
+              | {data.organization} |{" "}
+              {data.accomplishmentUrl && (
+                <a href={data.accomplishmentUrl} target="_blank">
+                  Link to Certificate
+                </a>
+              )}
             </span>
           ))}
         <p className={style.description.className}>{data.description}</p>

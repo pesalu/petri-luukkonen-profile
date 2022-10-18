@@ -219,9 +219,11 @@ img {
 }
 
 .experience__data:hover {
+  transition: 0.3s;
   box-shadow: 0 0 8px rgb(13 12 12 / 15%);
   background-color: var(--resume-left-background-color);
   border-radius: 0.1rem;
+  cursor: pointer;
 }
 
 .skills__name {
@@ -567,6 +569,7 @@ img {
 /*========== CERTIFICATES ==========*/
 .certificate__content,
 .publication__content {
+  position: relative;
   padding: 0.5rem;
   display: flex;
   gap: 1rem;
@@ -581,6 +584,16 @@ img {
   z-index: 1;
 }
 
+.open_new_tab_icon {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 1;
+  opacity: 0;
+  color: #696969;
+  transform: rotate(45deg);
+}
+
 .certificate__title {
   padding-left: 0.1rem;
   font-size: var(--h3-font-size);
@@ -591,10 +604,18 @@ img {
 }
 
 .certificate__data:hover {
+  transition: 0.3s;
   box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
   background-color: var(--resume-left-background-color);
   border-radius: 0.1rem;
   cursor: pointer;
+}
+
+.certificate__data:hover .open_new_tab_icon {
+  transition: 0.3s;
+  top: 0.5rem;
+  right: 0.5rem;
+  opacity: 0.9;
 }
 
 /*========== REFERENCES ==========*/

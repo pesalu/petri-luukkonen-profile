@@ -1,4 +1,5 @@
 import { List } from "./List";
+import { Item } from "./Item";
 
 const projectListStyles = {
   section: {
@@ -42,6 +43,12 @@ export function Projects({ listTitle, projects }) {
       title={listTitle}
       items={projects}
       style={projectListStyles}
-    ></List>
+    >
+      {projects.map((data, idx, arr) => {
+        return (
+          <Item key={idx} data={data} style={projectListStyles.item}></Item>
+        );
+      })}
+    </List>
   );
 }

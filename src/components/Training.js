@@ -1,5 +1,6 @@
 import { List } from "./List";
-const certificateListStyles = {
+import { Item } from "./Item";
+const trainingListStyles = {
   section: {
     className: "certificate section",
   },
@@ -28,19 +29,25 @@ const certificateListStyles = {
   },
 };
 
-export function Training({ listTitle, certificates }) {
-  certificates.forEach((certificate) => {
-    certificate.imgUrl = certificate.badgeUrl;
-    certificate.imgLink = certificate.url;
-    certificate.url = certificate.accomplishmentUrl;
+export function Training({ listTitle, certificates: trainings }) {
+  trainings.forEach((training) => {
+    training.imgUrl = training.badgeUrl;
+    training.imgLink = training.url;
+    training.url = training.accomplishmentUrl;
   });
 
   return (
     <List
       id="certificates"
       title={listTitle}
-      items={certificates}
-      style={certificateListStyles}
-    ></List>
+      items={trainings}
+      style={trainingListStyles}
+    >
+      {trainings.map((data, idx, arr) => {
+        return (
+          <Item key={idx} data={data} style={trainingListStyles.item}></Item>
+        );
+      })}
+    </List>
   );
 }

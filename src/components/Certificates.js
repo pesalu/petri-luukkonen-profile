@@ -1,4 +1,5 @@
 import { List } from "./List";
+import { Certificate } from "./Certificate";
 const certificateListStyles = {
   section: {
     className: "certificate section",
@@ -41,6 +42,16 @@ export function Certificates({ listTitle, certificates }) {
       title={listTitle}
       items={certificates}
       style={certificateListStyles}
-    ></List>
+    >
+      {certificates.map((data, idx, arr) => {
+        return (
+          <Certificate
+            key={idx}
+            data={data}
+            style={certificateListStyles.item}
+          ></Certificate>
+        );
+      })}
+    </List>
   );
 }

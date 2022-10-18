@@ -1,7 +1,5 @@
-import { Item } from "./Item";
-
-export function List({ id, title, items, style }) {
-  console.log(style);
+export function List({ id, title, style, children }) {
+  console.log(children);
   return (
     <section
       id={id}
@@ -13,9 +11,7 @@ export function List({ id, title, items, style }) {
       </h2>
 
       <div className={style.container.className} style={style.container.inline}>
-        {items.map((data, idx, arr) => {
-          return <Item key={idx} data={data} style={style.item}></Item>;
-        })}
+        {children}
       </div>
     </section>
   );
