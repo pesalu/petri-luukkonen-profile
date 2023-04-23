@@ -105,6 +105,27 @@
   ],
   "experience": [
     {
+      "employer": "twoday",
+      "organizationUrl": "https://twoday.fi/en/",
+      "companyLogo": "assets/img/employer-logos/twoday.png",
+      "job-title": "Full-stack developper",
+      "descriptions": [
+        "Development of both front-end and back-end of web applications"
+      ],
+      "technologies": [
+        "Typescript",
+        "Java",
+        "Angular",
+        "Spring Framework",
+        "Microsoft SQL Server database",
+        "ExpressJS"
+      ],
+      "period": {
+        "startDate": "1.1.2023",
+        "endDate": "current"
+      }
+    },
+    {
       "employer": "QPR Software Plc",
       "organizationUrl": "https://www.qpr.com/",
       "companyLogo": "assets/img/employer-logos/qpr-logo.png",

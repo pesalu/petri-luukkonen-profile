@@ -111,6 +111,27 @@
   ],
   "experience": [
     {
+      "employer": "twoday",
+      "organizationUrl": "https://twoday.fi/",
+      "companyLogo": "assets/img/employer-logos/twoday.png",
+      "job-title": "Full-stack kehittäjä",
+      "descriptions": [
+        "Web sovellusten käyttöliittymä ja palvelinpuolen kehittäminen"
+      ],
+      "technologies": [
+        "Typescript",
+        "Java",
+        "Angular",
+        "Spring Framework",
+        "Microsoft SQL Server database",
+        "ExpressJS"
+      ],
+      "period": {
+        "startDate": "1.1.2023",
+        "endDate": "current"
+      }
+    },
+    {
       "employer": "QPR Software Plc",
       "organizationUrl": "https://www.qpr.com/",
       "companyLogo": "assets/img/employer-logos/qpr-logo.png",
