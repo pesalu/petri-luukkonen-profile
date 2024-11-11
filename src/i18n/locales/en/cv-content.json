@@ -8,7 +8,7 @@
     "city": "Espoo",
     "county": "Uusimaa",
     "email": "petri.luukkonen@protonmail.com",
-    "phone": "+358452244780",
+    "phone": "+358*********",
     "socialmedia": [
       {
         "name": "LinkedIn",
@@ -129,7 +129,7 @@
       "employer": "QPR Software Plc",
       "organizationUrl": "https://www.qpr.com/",
       "companyLogo": "assets/img/employer-logos/qpr-logo.png",
-      "job-title": "Software developer / Cloud Engineer (internship)",
+      "job-title": "Software developer / Cloud Engineer",
       "descriptions": [
         "Front-end development of QPR Metrics UI",
         "Deployment of new and existing solutions to Azure cloud"
